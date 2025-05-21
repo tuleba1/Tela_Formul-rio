@@ -1,0 +1,117 @@
+* {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-size: 11px;
+        }
+body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            color: #000000;
+            text-shadow: 0 1px 2px #000;
+            background:linear-gradient(135deg, #fff,#99d6fa );
+}
+
+
+form {
+    box-shadow: 0 0 10px#000;
+    padding: 30px 20px 35px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background:linear-gradient(135deg, #99d6fa, #fff);
+}
+
+input{
+    padding: 0.5em 1em;
+    border: 0;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 220px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+fieldset{
+    padding: 0;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+fieldset:focus-within{
+    border-color: 0.75em;
+    padding-inline: 0.5em;
+    font-size: 1.25em;
+}
+button{
+    padding: 5px;
+    background-color: #020202;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+button:hover{
+    background-color: #40f049;
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.google-login {
+    padding: 5px;
+    background-color: #ffffff;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.google-login:hover {
+    background-color: #f1f1f1;
+    background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+}
+
+.create-account {
+    padding: 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.create-account:hover {
+    background-color: #1976D2;
+}
