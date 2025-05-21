@@ -50,7 +50,7 @@ fieldset:focus-within{
     font-size: 1.25em;
 }
 button{
-    padding: 5px;
+    padding: 7px;
     background-color: #020202;
     color: white;
     border: none;
@@ -59,7 +59,7 @@ button{
     font-size: 11px;
 }
 button:hover{
-    background-color: #40f049;
+    background-color: #333;
 }
 
 .titulo {
@@ -102,7 +102,7 @@ button:hover{
 }
 
 .create-account {
-    padding: 5px;
+    padding: 7px;
     background-color: #2196F3;
     color: white;
     border: none;
